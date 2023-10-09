@@ -18,7 +18,7 @@ def jumlah_harga(.........): # user-defined function ini menggunakan parameter "
 def cetak():
     tempah = get_tempahan()
     jum = ..................(tempah) # jum diumpukkan kepada function "jumlah_harga" dengan argumen "tempah"
-    print("\nTempahan anda ialah: ")
+    print("\n\nTempahan anda ialah: ")
     print(f"{tempah[.....]} kek {jenis_kek[0]} : {jum[0]}")
     print(f"{tempah[1]} kek {jenis_kek[.....]} : {jum[1]}")
     print(f"{tempah[2]} kek {jenis_kek[2]} : {jum[2]}")
